@@ -36,6 +36,7 @@ if(
 rip = dnsResolve(host);
 
 if(
+isInNet(rip,"127.0.0.1","255.0.0.0") ||
 isInNet(rip,"10.0.0.0","255.0.0.0") ||
 isInNet(rip,"172.16.0.0","255.240.0.0") ||
 isInNet(rip,"192.168.0.0","255.255.0.0") ||
