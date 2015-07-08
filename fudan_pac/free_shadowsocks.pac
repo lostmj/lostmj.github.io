@@ -2,7 +2,7 @@
 
 var direct = 'DIRECT';
 var goagent_proxy = 'PROXY localhost:8087';
-var fudan_proxy = 'PROXY proxy.fudan.edu.cn:8080';
+var fudan_proxy = 'DIRECT';
 var ssh_proxy = 'PROXY localhost:8118';
 //根据自己的实际情况修改
 var shadowsocks = 'SOCKS5 localhost:1088';
